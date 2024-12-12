@@ -31,11 +31,12 @@ This pipeline moves the files from the staging folder to Azure Data Lake Storage
 
 - **Azure Functions:** For validating JSON file formats.
 
-![image](architecture.png)
-
 - **Azure Data Lake Storage (ADLS):** For storing processed data.
 
 - **AWS S3:** For storing the original JSON data from IoT devices.
 
 ## Conclusion
 This project demonstrates an end-to-end ETL solution for handling IoT data from AWS S3 to Azure, ensuring reliable data validation and storage using Azure services.
+
+![image](architecture.png)
+
