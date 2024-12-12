@@ -31,6 +31,8 @@ This pipeline moves the files from the staging folder to Azure Data Lake Storage
 
 - **Azure Functions:** For validating JSON file formats.
 
+![image](architecture.png)
+
 - **Azure Data Lake Storage (ADLS):** For storing processed data.
 
 - **AWS S3:** For storing the original JSON data from IoT devices.
